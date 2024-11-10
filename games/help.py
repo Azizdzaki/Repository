@@ -1,0 +1,42 @@
+def help(user_role_now):
+    print("\n=========== HELP ===========")
+    if user_role_now == '':
+        print("\nKamu belum login sebagai role apapun. Silahkan login terlebih dahulu.")
+        print("\n   1. Login")
+        print("      Masuk ke dalam akun yang sudah terdaftar")
+        print("   2. Register")
+        print("      Membuat akun baru")
+        print("   3. Exit")
+        print("      Keluar dari game")
+
+    elif user_role_now == 'agent':
+        print(f"\nHalo Agent, Kamu memanggil command HELP. Kamu memilih jalan yang benar, semoga kamu tidak sesat kemudian. Berikut hal-hal yang dapat kamu lakukan sekarang:")
+        print("\n   1. Logout")
+        print("      Keluar dari akun yang sedang digunakan")
+        print("   2. Inventory")
+        print("      Melihat owca-dex yang dimiliki oleh Agent")
+        print("   3. Battle")
+        print("      Bertarung melawan monster")
+        print("   4. Arena")
+        print("      Arena berlatih untuk meningkatkan kemampuan para monster")
+        print("   5. Shop")
+        print("      Tempat membeli monster dan potion")
+        print("   6. Laboratory")
+        print("      Upgrade monster yang dimiliki oleh Agent")
+        print("   7. Exit")
+        print("      Keluar dari game")
+
+    elif user_role_now == 'admin':
+        print("\nSelamat data, Admin. Berikut adalah hal-hal yang dapat kamu lakukan:")
+        print("\n   1. Logout")
+        print("      Keluar dari akun yang sedang digunakan")
+        print("   2. Shop management")
+        print("      Melakukan manajemen pada SHOP sebagai tempat beli monster dan potion untuk para Agent")
+        print("   3. Monster management")
+        print("      Mengatur monster dalam database")
+        print("   4. Exit")
+        print("      Keluar dari game")
+
+    print("\nFootnote:")
+    print("Untuk menggunakan aplikasi, silahkan masukkan nama fungsi yang terdaftar")
+    print("Jangan lupa untuk memasukkan input yang valid")
