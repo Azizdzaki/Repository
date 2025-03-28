@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kost Langit Biru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kost Langit Biru</h1>
+        <p>Tempat tinggal nyaman dan tenang untuk mahasiswa dan pekerja</p>
+    </header>
 
+    <section class="fasilitas">
+        <h2>Fasilitas</h2>
+        <ul>
+            <li>Kamar luas dengan kamar mandi dalam</li>
+            <li>Wi-Fi cepat</li>
+            <li>Dapur bersama</li>
+            <li>Parkiran motor & mobil</li>
+            <li>Area jemur & taman mini</li>
+        </ul>
+    </section>
+
+    <section class="lokasi">
+        <h2>Lokasi</h2>
+        <p>Jl. Langit Biru No. 10, Bandung</p>
+        <p>5 menit dari kampus ITB, dekat dengan minimarket dan laundry</p>
+    </section>
+
+    <section class="kontak">
+        <h2>Hubungi Kami</h2>
+        <p>WA: 0812-3456-7890</p>
+        <p>Instagram: @kostlangitbiru</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kost Langit Biru. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #87ceeb;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    color: #4682b4;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "🌟 ";
+    margin-right: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #87ceeb;
+    color: white;
+    margin-top: 30px;
+}
